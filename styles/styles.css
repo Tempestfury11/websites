@@ -1,0 +1,36 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    min-width: 100px;
+}
+/*headed and footer*/
+header, footer {
+    min-width:100%;
+    height: 150px;
+    background-color: grey;
+}
+/* navgation element */
+nav {
+    margin-left: 20px;
+}
+ul { display: inline-flex;
+}
+/* list */
+li {
+    list-style: none;
+    padding-right: 10px;
+}
+a:hover {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+main {
+    width: 100%;
+    min-height: 100%;
+    top: 100px;
+    bottom: 100px;
+}
